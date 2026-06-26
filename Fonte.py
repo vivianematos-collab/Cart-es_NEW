@@ -107,7 +107,7 @@ if uploaded_file:
             elif 'PAGSEGURO' in historico: return 'PAGSEGURO'
             elif 'PAGSEG' in historico: return 'TEDPAGSEG'
             elif 'FISERV' in historico or 'FISERV' in documento: return 'BIN'
-            elif 'SFPAY' in historico: return 'SFPAY'
+            elif 'STONE' in historico: return 'STONE'
             elif 'SISPAG' in historico: return 'BIN'
             elif 'VERO BANRI' in historico: return 'VERO'    
             elif 'PIX TRANSF  Nu Pay' in historico: return 'NUPAY'
@@ -132,7 +132,7 @@ if uploaded_file:
             'CIELO':101118,
             'REDE':101111,
             'TEDPAGSEG':101117,
-            'SFPAY':101119,
+            'STONE':101122,
             'PAGSEGURO':101117,
             'SISPAG PAGSEG':101117,
             'NUPAY':101121,
